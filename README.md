@@ -16,10 +16,10 @@
 
 ## EXPLANATIONS:
 1. <b>Dataset download:</b>
-<br>For this project we will be using the UMD face dataset which can be downloaded from:</br>
+<br>For this project we will be using the UMD face dataset which can be downloaded from: [UMD Dataset](http://www.umdfaces.io/) </br>
 <br>![UMD Face Dataset](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/umd1.jpg)</br>
-<br>Go ahead and download the Batch 3 dataset, which will have faces of personalities and and .csv file that contains the annotations
-to crop out the face from each of the images</br>
+<br>Go ahead and download the <b>Batch 3 dataset</b>, which will have faces of personalities and and <b>.csv</b> file that contains the annotations
+to crop out the face from each of the images:</br>
 ![Batch 3](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/umd2.jpg)</br>
 
 
