@@ -14,6 +14,13 @@
 4. Instructions to run the code
 5. Future improvements
 
+## EXPLANATIONS:
+1. Dataset download:
+<br>For this project we will be using the UMD face dataset which can be downloaded from [UMD Face Dataser] (https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/umd1.jpg)</br>
+<br>Go ahead and download the Batch 3 dataset, which will have faces of personalities and and .csv file that contains the annotations
+to crop out the face from each of the images(https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/umd2.jpg)</br>
+
+
 
 
 
