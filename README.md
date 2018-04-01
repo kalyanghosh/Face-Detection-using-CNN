@@ -39,9 +39,11 @@ positive dataset and crop out the background to create the negative dataset.The 
 <br>3.1: In this code, I have used a simplistic CNN architecture as below:</br>
 <br><b>2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->FULLY CONNECTED->FULLY CONNECTED</b></br>
 <br>3.2: In this code, I have used <b>Binary CrossEntropy</b> as the <b>Loss Function</b> , the <b>RMSProp</b> as the <b>Gradient Descent</b> algorithm:</br>
-<br><b>2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->FULLY CONNECTED->FULLY CONNECTED</b></br>
-
-
+<br>3.3 The Hyperparameters used are as follows:</br>
+<br> LEARNING RATE =1e-4 </br>
+<br> STEPS PER EPOCH =100 </br>
+<br> EPOCHS =30 </br>
+<br> VALIDATION STEPS =50 </br>
 
 
 
