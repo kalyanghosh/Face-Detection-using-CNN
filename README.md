@@ -28,7 +28,7 @@ positive dataset and crop out the background to create the negative dataset.The 
 <br>![Train/Test Folder Structure](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/folder.jpg)</br>
 
 2. <b>Tools & Libraries:</b>
-2.1 In this project we will be using the <b>Keras Deep Learning Library</b> and we will be running it on top of the <b>Tensorflow</b> backend.
+<br>2.1 In this project we will be using the <b>Keras Deep Learning Library</b> and we will be running it on top of the <b>Tensorflow</b> backend.
 <br>![Keras & Tensorflow](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/keras-tensorflow-logo.jpg)</br>
 <br>Instructions on how to install Keras & Tensorflow on an Ubuntu machine are available online.</br>
 2.2 
