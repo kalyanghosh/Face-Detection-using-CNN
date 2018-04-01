@@ -7,6 +7,12 @@
 <br>In this repository , I will list down all the steps needed to get started with your first project in Deep Learning.</br>
 
 ## CONTENTS:
-⋅⋅* Dataset download
+1. Dataset download
+2. Tools & Libraries
+3. Code
+4. Instructions to run the code
+5. Future improvements
+
+
 
 
