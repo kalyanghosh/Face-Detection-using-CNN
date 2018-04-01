@@ -22,7 +22,7 @@
 to crop out the face from each of the images:</br>
 ![Batch 3](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/umd2.jpg)</br>
 
-1.1.<b> Data Preprocessing IO Code-UMD.py:</b>
+1.1.<b> Data Preprocessing Input/Output Code-UMD.py:</b>
 <br>In the next step, we need to write a code that would read the annotations from the .csv file , crop out the faces to create the 
 positive dataset and crop out the background to create the negative dataset.The code should be self sufficient and modular so that when parameters like <b>"dataset path", "# of train images", "# of test images", "color/gray"</b>, the code should perform all the tasks and divide the dataset into a folder structure as below:</br>
 <br>![Train/Test Folder Structure](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/folder.jpg)</br>
