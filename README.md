@@ -22,16 +22,16 @@
 to crop out the face from each of the images:</br>
 ![Batch 3](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/umd2.jpg)</br>
 
-1.1. <b>Data Preprocessing IO Code (UMD.py):</b>
+1.1.<b>Data Preprocessing IO Code (UMD.py):</b>
 <br>In the next step, we need to write a code that would read the annotations from the .csv file , crop out the faces to create the 
 positive dataset and crop out the background to create the negative dataset.The code should be self sufficient and modular so that when parameters like "dataset path", "# of train images", "# of test images", "color/gray", the code should perform all the tasks and divide the dataset into a folder structure as below:</br>
 <br>![Train/Test Folder Structure](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/folder.jpg)</br>
 
-2. <b>Tools & Libraries:</b>
-<br>2.1 In this project we will be using the <b>Keras Deep Learning Library</b> and we will be running it on top of the <b>Tensorflow</b> backend.
+2.<b>Tools & Libraries:</b>
+2.1 In this project we will be using the <b>Keras Deep Learning Library</b> and we will be running it on top of the <b>Tensorflow</b> backend.
 <br>![Keras & Tensorflow](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/keras-tensorflow-logo.jpg)</br>
-<br>Instructions on how to install Keras & Tensorflow on an Ubuntu machine are available online.</br>
-2.2 
+<br>Instructions on how to install <b>Keras & Tensorflow</b> on an Ubuntu machine are available online.</br>
+2.2 The code editors we will be using are <b>Anaconda</b> with <b>OpenCV,Numpy,Scipy</b> support.
 
 
 
