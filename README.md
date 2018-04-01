@@ -24,7 +24,7 @@ to crop out the face from each of the images:</br>
 
 1.1.<b> Data Preprocessing IO Code-UMD.py:</b>
 <br>In the next step, we need to write a code that would read the annotations from the .csv file , crop out the faces to create the 
-positive dataset and crop out the background to create the negative dataset.The code should be self sufficient and modular so that when parameters like "dataset path", "# of train images", "# of test images", "color/gray", the code should perform all the tasks and divide the dataset into a folder structure as below:</br>
+positive dataset and crop out the background to create the negative dataset.The code should be self sufficient and modular so that when parameters like <b>"dataset path", "# of train images", "# of test images", "color/gray"</b>, the code should perform all the tasks and divide the dataset into a folder structure as below:</br>
 <br>![Train/Test Folder Structure](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/folder.jpg)</br>
 
 2.<b> Tools & Libraries:</b>
@@ -39,11 +39,11 @@ positive dataset and crop out the background to create the negative dataset.The 
 <br>3.1: In this code, I have used a simplistic CNN architecture as below:</br>
 <br><b>2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->2D CONVOLUTION LAYER->2D MAX POOLING->FULLY CONNECTED->FULLY CONNECTED</b></br>
 <br>3.2: In this code, I have used <b>Binary CrossEntropy</b> as the <b>Loss Function</b> , the <b>RMSProp</b> as the <b>Gradient Descent</b> algorithm:</br>
-<br>3.3 The Hyperparameters used are as follows:</br>
-<br> LEARNING RATE =1e-4 </br>
-<br> STEPS PER EPOCH =100 </br>
-<br> EPOCHS =30 </br>
-<br> VALIDATION STEPS =50 </br>
+<br>3.3 The hyperparameters used are as follows:</br>
+<br><b> LEARNING RATE =1e-4 </b></br>
+<br><b> STEPS PER EPOCH =100 </b></br>
+<br><b> EPOCHS =30 </b></br>
+<br><b> VALIDATION STEPS =50 </b></br>
 
 
 
