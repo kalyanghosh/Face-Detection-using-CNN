@@ -45,7 +45,7 @@ positive dataset and crop out the background to create the negative dataset.The 
 <br><b> EPOCHS =30 </b></br>
 <br><b> VALIDATION STEPS =50 </b></br>
 
-3.<b> HYPER PARAMETER OPTIMIZATION:</b>
+4.<b> HYPER PARAMETER OPTIMIZATION:</b>
 <br>The tune the hyperparameters, we run a random search over the hyperparameter space, by sampling the Learning Rate & Regularization   from a uniform distribution.</br>
 <br>The optimal set of hyperparameters after running a coarse search and fine search are as follows:<br>
 <br><b> COARSE SEARCH: <b><br>
@@ -62,3 +62,7 @@ positive dataset and crop out the background to create the negative dataset.The 
 <br><b> Value of optimum Regularization=3.91e-3 </b></br>
 
 <br>The plots of TRAINING VS TESTING ACCURACY and TRAINING VS TESTING LOSS: </br>
+<br>![TRAINING VS TESTING LOSS](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/1_reg_10minus6_lr_10minus4.png)</br>
+<br>![TRAINING VS TESTING ACCURACY](https://github.com/kalyanghosh/Face-Detection-using-CNN/blob/master/2_reg_10minus6_lr_10power4.png)</br>
+5.<b> SETUP INSTRUCTIONS:</b>
+<br>The entire setup instructions to run the code can be found in <b>README.txt</b></br>
