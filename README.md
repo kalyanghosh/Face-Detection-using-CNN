@@ -45,6 +45,18 @@ positive dataset and crop out the background to create the negative dataset.The 
 <br><b> EPOCHS =30 </b></br>
 <br><b> VALIDATION STEPS =50 </b></br>
 
+3.<b> HYPER PARAMETER OPTIMIZATION:</b>
+<br>The tune the hyperparameters, we run a random search over the hyperparameter space, by sampling the Learning Rate & Regularization   from a uniform distribution.</br>
+<br>The optimal set of hyperparameters after running a coarse search and fine search are as follows:<br>
+<br><b> COARSE SEARCH: <b><br>
+<br><b> Maximum Testing Accuracy=96.89% </b></br>
+<br><b> Minimum Testing Loss=0.094 </b></br>
+<br><b> Value of optimum Learning Rate=4.48e-4 </b></br>
+<br><b> Value of optimum Regularization=2.27e-5 </b></br>
 
 
-
+<br><b> FINE SEARCH: <b><br>
+<br><b> Maximum Testing Accuracy=97.79% </b></br>
+<br><b> Minimum Testing Loss=0.1034 </b></br>
+<br><b> Value of optimum Learning Rate=8.29e-4 </b></br>
+<br><b> Value of optimum Regularization=3.91e-3 </b></br>
