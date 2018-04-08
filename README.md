@@ -60,3 +60,5 @@ positive dataset and crop out the background to create the negative dataset.The 
 <br><b> Minimum Testing Loss=0.1034 </b></br>
 <br><b> Value of optimum Learning Rate=8.29e-4 </b></br>
 <br><b> Value of optimum Regularization=3.91e-3 </b></br>
+
+<br>The plots of TRAINING VS TESTING ACCURACY and TRAINING VS TESTING LOSS: </br>
